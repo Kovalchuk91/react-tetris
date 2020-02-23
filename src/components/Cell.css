@@ -1,0 +1,24 @@
+.Cell {
+  width: 9%;
+  position: relative;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #25679c;
+  height: 15px;
+  width: 15px;
+}
+
+.Cell:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+.Cell-cube {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}

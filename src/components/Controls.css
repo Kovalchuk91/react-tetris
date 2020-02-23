@@ -1,0 +1,36 @@
+.Controls {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Controls button {
+  display: block;
+  margin-top: 15px;
+  padding: 16px;
+  border-radius: 50%;
+  background-color: #f2c202;
+  border: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Controls button:active {
+  border-color: transparent;
+  transform: translateY(2px);
+}
+
+.Controls button:focus {
+  outline: 0;
+}
+
+.ControlsIcon {
+  color: #6b5d00;
+  font-size: 20px;
+  font-weight: bold;
+}

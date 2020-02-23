@@ -1,0 +1,9 @@
+.Board {
+  width: 100%;
+}
+
+.Board-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+}
